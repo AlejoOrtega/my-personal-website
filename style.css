@@ -1,3 +1,13 @@
 body {
-    background: blue;
+    background: white;
+    display: flex;
+    flex-direction: horizontal;
+}
+
+#personal-profile{
+    background: skyblue;
+}
+
+#personal-education{
+    background: lightgrey;
 }
