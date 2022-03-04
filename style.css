@@ -1,13 +1,31 @@
 body {
-    background: white;
+    background: #333333;
     display: flex;
     flex-direction: horizontal;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 0 5px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#side-panel{
+    width: 110%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #personal-profile{
-    background: skyblue;
+    background: #333333;
+    color:white;
+    padding: 10%;
 }
 
 #personal-education{
-    background: lightgrey;
+    background: #f8f8f8;
+    padding: 0% 10%;
+}
+
+#personal-professional {
+    background: white;
+    padding: 2%;
 }
